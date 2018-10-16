@@ -1,3 +1,13 @@
+# LaTeX garbage
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Latest build
+texfile/*.pdf
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

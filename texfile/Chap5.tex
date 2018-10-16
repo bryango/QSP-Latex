@@ -3,7 +3,7 @@
 \section{Non-interacting phonon system and Debye theory of specific heat}
 
 \begin{wrapfigure}{l}{5.5cm}
-\includegraphics[width = 5cm]{5-1.png}
+\includegraphics[width = 5cm]{../fig/5-1.png}
 \end{wrapfigure}
 
 In a usual metal, such as alkali metals of column I, outer shell valence electrons are completely separated from their ion cores and form a nearly free electron gas.
@@ -52,7 +52,7 @@ $\nabla\cdot \vec{\bm{d}}$ is nothing but the charge density modulation in a pos
 \[\nabla\cdot\vec{\bm{d}} = -\frac{\delta\rho_{inoic}}{\rho_0}\]
 
 \begin{wrapfigure}{l}{5.5cm}
-\includegraphics[width = 5cm]{5-2.png}
+\includegraphics[width = 5cm]{../fig/5-2.png}
 \end{wrapfigure}
 One can easily see this, by drawing a configuration of the displacement vector, which has a finite divergence.
 
@@ -63,7 +63,7 @@ On the one hand, $\nabla\times\bm{d}$ is accompanied by the shear deformation in
 \begin{figure}
 \end{figure}
 \begin{wrapfigure}{l}{6.5cm}
-\includegraphics[width = 6cm]{5-3.png}
+\includegraphics[width = 6cm]{../fig/5-3.png}
 \end{wrapfigure}
 
 which is not accompanied by any charge density modulation.
@@ -422,7 +422,7 @@ Now that the integrand (here) is a function of only $\omega_{\bf k}$, let us cha
 \[\sum_{\bf k} = V\int\frac{d^3\bf k}{(2\pi)^3} = \frac{V}{2\pi^2}\int k^2dk = \frac{2\pi^2c^3}\int_0 \omega^2d\omega \]
 
 \begin{wrapfigure}{l}{6cm}
-\includegraphics[width = 4.5cm]{5-2-4.png}
+\includegraphics[width = 4.5cm]{../fig/5-2-4.png}
 \end{wrapfigure}In the present model of ``elastic continuous media'', the $\omega$-integral here has no upper bound. But, in real solids, which is a discrete lattice model, the $\bf k$ integral should be taken over within the first Brillouin zone, so that the $\omega$-integral is also bounded from above at the Brillouin zone boundary. We call this upper bound of the $\omega$-integral as $\omega_D$.
 \[\sum_{\bf k} = \frac{V}{2\pi^2c^3}\int_0^{\omega_d}\omega^2d\omega \]
 
@@ -473,7 +473,7 @@ Using this decomposition, the interaction Hamiltonian is decomposed into
 
 \[H_{\text{el-p}} = H_{\text{el-p}}^0 + \overset{H_{\text{el-p}}^1}{\fbox{$\displaystyle\int d^3{\bf x}d^3{\bf x'}\displaystyle\frac{\rho_e({\bf x})\delta\rho_b({\bf x'})}{|\bf x-x'|}$}} \]
 \begin{wrapfigure}{r}{6cm}
-\includegraphics[width = 4.5cm]{5-2-1.png}
+\includegraphics[width = 4.5cm]{../fig/5-2-1.png}
 \end{wrapfigure}
 where the first term of the right hand side was already taken into account for the purpose of ensuring the electric neutrality.
 
@@ -486,13 +486,13 @@ As a result, when the charge modulations is induced by the phonon dynamics, elec
 
 \[\delta\rho_b({\bf x}):\text{ (For electrons) ``almost'' static charged impurities} \]
 \begin{wrapfigure}{r}{6cm}
-\includegraphics[width = 4.5cm]{5-2-2.png}
+\includegraphics[width = 4.5cm]{../fig/5-2-2.png}
 \end{wrapfigure}
 As we have already studied in section \ref{s3-1}, such charged impurities will be immediately screened by electrons. Namely, according to the argument in section \ref{s3-1}, the static impurity induced electro density modulations. Importantly, the sum of the induced electron density is equal to minus of the charged impurity at the center. As such, the ``charged impurities'' will be completely screened, which make the interaction potential between $\delta\langle\rho_b(\bf x)\rangle$ and $\hat{\rho}_{\text{el}}(\bf x')$ here to be short-ranged potential. An explicit form of the resulting short-range interaction potential can be calculated in the following:
 
 \[\tilde\varphi^{\text{ex}}({\bf x})=-\int\frac{e\delta\langle n({\bf x}')\rangle}{|\bf x-x'|}d^3{\bf x'}+\varphi^{\text{ex}}({\bf x}) \]
 
-\includegraphics[width = 8cm]{5-2-3.png}
+\includegraphics[width = 8cm]{../fig/5-2-3.png}
 
 The $2-$nd term of the right hand side is the coulomb interaction between a test charge at $\bf x$ and the positive point-charge with $Ze$ charges at the origin, latter of which corresponds the ``almost static impurity'' charges associated with slow dynamics of the ion background. Such an charged impurity immediately induces screening electrons density ($\delta\langle n({\bf x})\rangle$). The first term of the right hand side is the Coulomb interactions between the induced screening electrons' density and the test charge at $\bf x$. From the argument so far, it is clear that any given electron in metals physically interacts with this positive charge via the sum of these two interactions instead of only via the latter. Within the linear response theory and within the ring-diagram approximation, we have already calculate $\delta\langle n({\bf x})\rangle$ in section \ref{s3-1}. Namely, the Fourier series of $\delta\langle n({\bf x})\rangle$ is given by
 
@@ -516,7 +516,8 @@ As such, the Fourier series of the resulting short-range potential is readily ca
 
 
 \begin{wrapfigure}{l}{4cm}
-\includegraphics[width = 4cm]{5-2-5.png}
+\texttt{\large IMAGE NOT FOUND}
+%\includegraphics[width = 4cm]{../fig/5-2-5.png}
 \end{wrapfigure}
 By taking Fourier transformation of the right hand side, we can explicitly calculate the function form of $\tilde\varphi_{\text{ex}}({\bf x})$. $\tilde\varphi_{\text{ex}}({\bf x})$ here shares the same demoniator as $\delta\langle n({\bf k})\rangle$, so that the $\tilde\varphi_{\text{ex}}({\bf x})$ shares the same asympotic behavior as $\delta\langle n({\bf k})\rangle$, which is like $x^{-3}\sin(k_F|x|)$. Compared to the Coulomb interaction, which decays as $1/x$, this interaction is definitely short-ranged one. In terms of this electron-phonon interaction in metals becomes like this:
 
@@ -644,7 +645,7 @@ Feynman's rule for these two Green's functions can be derived exactly in the sam
 First of all, the Wick's theorem suggests that the $2n$-th order in $\hat{H}_1$ contribute to these Green's function, where $n$ is integer. For the $2n$-th order contribution to $G({\bf q},q_0),\ D({\bf q},q_0)$, the rule is as follows.
 
 \begin{wrapfigure}{l}{4cm}
-\includegraphics[width = 4cm]{5-2-l5.png}
+\includegraphics[width = 4cm]{../fig/5-2-l5.png}
 \end{wrapfigure}
 \noindent (a) Construct all topologically distinct Feynman diagrams, where the basis vertex is composed of two electron lines and one phonon(electron) line meeting at the vertex.
 
@@ -675,7 +676,7 @@ we have
 \[D^0({\bf q},q_0)=\frac{\hbar\omega_{\bf q}}{2}\left(\frac{1}{q_0\omega_{\bf q}+i\eta}-\frac{1}{q_0+\omega_{\bf q}-i\eta}\right)\times\theta(\omega_D-\omega_{\bf q}) \]
 
 \begin{wrapfigure}{l}{3cm}
-\includegraphics[width = 3cm]{5-2-l6.png}
+\includegraphics[width = 3cm]{../fig/5-2-l6.png}
 \end{wrapfigure}
 \noindent (c) We impose the conservation of the momentum and energy (frequency) at each vertex
 
@@ -688,15 +689,15 @@ where $F$ is the number of the electron loop in a given Feynman diagram.
 
 \noindent (f) Discards all Feynman diagrams which have subunits connected to the rest of the diagrams by only one phonon line.
 
-\includegraphics[width = 7cm]{5-2-l7.png}
+\includegraphics[width = 7cm]{../fig/5-2-l7.png}
 
 These Feynman's rules are applicable for both electron's Green's function \& phonon's Green's function. Equivalent electron-electron interaction and BCS (Bardeen-Cooper-Schrieffer) Hamiltonian.
 
 Comparing this Feynman's rule for the electron-phonon coupled system and the Feynman's rule for interacting electron system (given in section \ref{S2-5}), one can realize the ``equivalence between these two different quantum many-body systems.
 
 \newpage
-\includegraphics[width = 15cm]{5-2-l4.png}\\
-\includegraphics[width = 15cm]{5-2-l3.png}
+\includegraphics[width = 15cm]{../fig/5-2-l4.png}\\
+\includegraphics[width = 15cm]{../fig/5-2-l3.png}
 \newpage
 This one-to-one correspondence suggests that, electron Green's function in e-p coupled system becomes exactly same as the electron's Green's function in an interacting electron system, where the interaction potential is given by the non-interacting phonon propagator: Namely the interaction potential is spin-independent and frequency dependent and is given by this
 
@@ -721,9 +722,9 @@ This means that the equivalent electron-electron interaction becomes an attracti
 As we will see in the next chapter, this attractive electron-electron interaction results in superconductivity. Remember that the equivalent interaction potential will become repulsive when the energy transfer between two electrons are greater than $\omega_D$
 
 \begin{wrapfigure}{r}{5.5cm}
-\includegraphics[width = 4.5cm]{5-2-l1.png}
+\includegraphics[width = 4.5cm]{../fig/5-2-l1.png}
 \end{wrapfigure}
-\includegraphics[width = 8cm]{5-2-l2.png}
+\includegraphics[width = 8cm]{../fig/5-2-l2.png}
 
 In the non-interacting ground state where electrons form a Fermi sea, $U_0({\bf q},q_0)$ can be attractive only for those electrons lying within an energy shell of the thickness $\hbar\omega_D$ belong the Fermi surface. Also, $U_0({\bf q},q_0)$ is attractive only when these two electrons are scattered into the states lying with an energy shell of the thickness $\hbar\omega_D$ above the Fermi surface.
 

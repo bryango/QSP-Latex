@@ -2,14 +2,14 @@
 
 The first approximation scheme is the self-consistant Hartree-Fock approximation, which begins with the 1st order approximation for the proper selfenergy.
 \begin{center}
-\includegraphics[width = 10cm]{2-6-1.png}\label{Fig2.6.1}
+\includegraphics[width = 10cm]{../fig/2-6-1.png}\label{Fig2.6.1}
 \end{center}
 
 
 In this approximation, a particle moves in a single particle potential that is created by all the other particles by way of interaction potential. But, in this approximation, these internal fermion lines are just non-interacting Green's function, so that background particles which create an effective single-particle potential are treated as non-interacting. But, in reality, the background particles also move under the effective single-particle potential. Therefore, it is much more natural to replace these non-interacting Green's functions by the interacting Green's function itself. Namely,
-\begin{center} \includegraphics[width=8cm]{2-6-2.png} \label{Fig2.6.2}\end{center}
+\begin{center} \includegraphics[width=8cm]{../fig/2-6-2.png} \label{Fig2.6.2}\end{center}
 where these bold lines themselves are given by this proper selfenergy via Dyson equation,
-\begin{center} \includegraphics[width=6cm]{2-6-3.png}\label{Fig2.6.3} \end{center}
+\begin{center} \includegraphics[width=6cm]{../fig/2-6-3.png}\label{Fig2.6.3} \end{center}
 We will study these equations in details.
 
 To this end, we will consider a spin$=\frac{1}{2}$ fermion system in a static spin-independent potential $U(\mathbf{x})$.
@@ -169,7 +169,7 @@ The first system considered is a dilute Fermi gas with strong short-range repuls
 We assume that the repulsive interaction is s-wave like, so that the potential depends only on a spatial distance between two particles.
 
 To be specific, we assume that the repulsive interaction is described by a square-well shape potential.
-\begin{center} \label{Fig2.7.1} \includegraphics[width=6cm]{2-7-1.png}
+\begin{center} \label{Fig2.7.1} \includegraphics[width=6cm]{../fig/2-7-1.png}
 \end{center}
 where positive $V_0$ means repulsive and ``$a$" represents an interaction range.
 
@@ -179,7 +179,7 @@ where positive $V_0$ means repulsive and ``$a$" represents an interaction range.
 For the kinetic energy part, we simply assume the free electron Hamiltonian
 \[H_0 = \sum_\alpha \int \mathrm{d}^3 \mathbf{x} \psi_\alpha^\dagger (\mathbf{x}) \left[-\frac{\hbar^2\nabla^2_{\mathbf{x}}}{2m}\right]\psi_\alpha(\mathbf{x})\]
 whose dispersion take a parabolic form.
-\begin{center} \label{Fig2.7.2} \includegraphics[width=3cm]{2-7-2.png} \end{center}
+\begin{center} \label{Fig2.7.2} \includegraphics[width=3cm]{../fig/2-7-2.png} \end{center}
 
 ``dilute Fermi gas" means that the chemical potential is chosen so that the Fermi momentum is sufficiently small. $$k_F \rightarrow \text{small}$$
 
@@ -189,13 +189,13 @@ Now $k_F a$ comprises a dimensionless quantity. The natural coupling constant fo
 To do this perturbation expansion, systematically, let us begin with the 2nd order contribution to the proper self energy.
 
 According to eq.(\ref{Eqs2.6.4}), the 2nd order contribution can be enumerated as follows:
-\begin{center}\label{Fig2.7.3} \includegraphics[width=8cm]{2-7-3.png} \end{center}
+\begin{center}\label{Fig2.7.3} \includegraphics[width=8cm]{../fig/2-7-3.png} \end{center}
 
 For the uniform electron gas case, these four term exactly reduce to zero.
 \begin{center}-----------------------------\end{center}
 
 \begin{wrapfigure}{l}{3.5cm}
-\label{Fig2.7.4} \includegraphics[width=3cm]{2-7-4.png}
+\label{Fig2.7.4} \includegraphics[width=3cm]{../fig/2-7-4.png}
 \end{wrapfigure}
 For example, consider this diagram.
 
@@ -221,7 +221,7 @@ But, since both of these two are the second order pole, the contour integration 
 Therefore, this contribution always reduce to zero. Similarly, we can immediately see that all of these also reduce to zero, because these parts give the same integration as this.
 
 \begin{wrapfigure}[8]{l}{4.5cm}
-\label{Fig2.7.5} \includegraphics[width=4cm]{2-7-5.png}
+\label{Fig2.7.5} \includegraphics[width=4cm]{../fig/2-7-5.png}
 \end{wrapfigure}
 Thus, we have only to calculate these two contributions,
 \[ \begin{split} &- \left( \frac{i}{\hbar}\right)^2 \frac{1}{\left( 2\pi \right)^8} \int \mathrm{d}^3 \mathbf{q} \int \mathrm{d}\epsilon \int \mathrm{d}^3 \mathbf{q}^{'} \int \mathrm{d} \epsilon^{'} \\
@@ -272,7 +272,7 @@ Now these two have a pole in the upper half plane, while these two have a pole i
  \end{split}\]
 
 \begin{wrapfigure}[4]{l}{3.5cm}
-\label{Fig2.7.6} \includegraphics[width=3cm]{2-7-6.png}
+\label{Fig2.7.6} \includegraphics[width=3cm]{../fig/2-7-6.png}
 \end{wrapfigure}
 
 By substituting this into the original expression we obtain this:
@@ -285,7 +285,7 @@ By substituting this into the original expression we obtain this:
 \} \end{split}\end{equation}
 
 \begin{wrapfigure}[4]{l}{3.5cm}
-\label{Fig2.7.7} \includegraphics[width=3cm]{2-7-7.png}
+\label{Fig2.7.7} \includegraphics[width=3cm]{../fig/2-7-7.png}
 \end{wrapfigure}
 Similarly we can calculate the other 2nd order contribution to the proper self-energy.
 \[ \begin{split} & \left(\frac{i}{\hbar}\right)^2 \frac{1}{(2\pi)^8} \int \mathrm{d}^3 \mathbf{q} \int \mathrm{d} \epsilon \int \mathrm{d}^3 \mathbf{q}^{'} \int \mathrm{d} \epsilon^{'}  \\
@@ -311,7 +311,7 @@ Similarly we can calculate the other 2nd order contribution to the proper self-e
 \end{split} \]
 
 %\begin{wrapfigure}{l}{3.5cm}
-%\label{Fig2.7.8} \includegraphics[width=3cm]{2-7-8.png}
+%\label{Fig2.7.8} \includegraphics[width=3cm]{../fig/2-7-8.png}
 %\end{wrapfigure}
 \begin{center}---------------------------------------------\end{center}
 \begin{equation} \label{Eqs2.7.2} \begin{split}
@@ -335,7 +335,7 @@ Accordingly, in the low density limit, the first term vanishes on the order of $
 When generalizing this argument into higher order contribution to the proper self energy, we see that the leading order contribution in the low density limit comes only from the so--called ladder--type diagrams depicted here:
 
 \begin{center}
-\includegraphics[width=8cm]{2-7-9.png}\label{Fig2.7.9}
+\includegraphics[width=8cm]{../fig/2-7-9.png}\label{Fig2.7.9}
 \begin{equation} \label{Eqs2.7.3}\end{equation}
 \end{center}
 
@@ -346,7 +346,7 @@ When all the interaction lines are put along the horizontal direction, any ladde
 In these diagrams, \underline{these} are the ones which run in the reverse direction.
 
 \begin{wrapfigure}[6]{l}{3.5cm}
-\label{Fig2.7.10} \includegraphics[width=3cm]{2-7-10.png}
+\label{Fig2.7.10} \includegraphics[width=3cm]{../fig/2-7-10.png}
 \end{wrapfigure}
 Due to this feature, the integrant of these diagram contains $(2n-1)$--numbers of fermi distribution function for particle times one fermi distribution function for hole.
 \[ \begin{split}
@@ -361,12 +361,12 @@ Any Feynman diagrams other than these ladder--type diagram contain at least two 
 
 For example, consider a following 3rd order perturbation to the proper self energy term.
 \begin{center}
-\label{Fig2.7.11} \includegraphics[width=6cm]{2-7-11.png}
+\label{Fig2.7.11} \includegraphics[width=6cm]{../fig/2-7-11.png}
 \end{center}
 
 When all the interaction lines are put in the horizontal way, this Feynman diagram contain two internal lines which run in the reverse direction to the other.
 \begin{center}
-\label{Fig2.7.12} \includegraphics[width=6cm]{2-7-12.png}
+\label{Fig2.7.12} \includegraphics[width=6cm]{../fig/2-7-12.png}
 \end{center}
 
 \[ \begin{split}
@@ -400,18 +400,18 @@ i \int \frac{\mathrm{d}\epsilon_1}{2\pi} \int \frac{\mathrm{d}\epsilon_3}{2\pi}
 
 Due to these reasonings, the leading order diagrams in the low density limit are given by these ladder--type diagrams.
 \begin{center}
-\includegraphics[width=0.8\textwidth]{2-7-13.png}\label{Fig2.7.13}
+\includegraphics[width=0.8\textwidth]{../fig/2-7-13.png}\label{Fig2.7.13}
 \end{center}
 
 These ladder-type of diagram can be given by so-called the effective two-particle interaction.
 \begin{center}
-\includegraphics[width=0.55\textwidth]{2-7-13'.png}\label{Fig2.7.13'}
+\includegraphics[width=0.55\textwidth]{../fig/2-7-13'.png}\label{Fig2.7.13'}
 \begin{equation} \label{Eqs2.7.4}\end{equation}
 \end{center}
 
 Where the effective two-particle interaction is given by this:
 \begin{center}
-\includegraphics[width=0.6\textwidth]{2-7-14.png}\label{Fig2.7.14}
+\includegraphics[width=0.6\textwidth]{../fig/2-7-14.png}\label{Fig2.7.14}
 \begin{equation} \label{Eqs2.7.5}\end{equation}
 \end{center}
 \begin{center}---------------------------------------------\end{center}
@@ -539,7 +539,7 @@ Consider that an incident electron wave of momentum $\mathbf{k}$ is injected to 
 \end{equation*}
 
 where $V(\mathbf{x})$ represent the hard core potential depending only on the radial coordinate.
-\begin{center} \includegraphics[width=0.5\textwidth]{2-7-15.png} \label{Fig2.7.15} \end{center}
+\begin{center} \includegraphics[width=0.5\textwidth]{../fig/2-7-15.png} \label{Fig2.7.15} \end{center}
 
 Since the incident wave have momentum $\mathbf{k}$, we want find an eigenstate of this Hamiltonian which have energy of $\frac{\hbar^2\mathbf{k}^2}{2m}$.
 
@@ -1124,7 +1124,7 @@ As in the single-particle Green's function, the fully-contracted normal-ordered 
 
 Since we have two creation fields and two annihilation fields, which are nothing to do with the interaction potentials, we have two external lines which connects $x_1^{'}$ and $x_2^{'}$ into $x_1$ and $x_2$.
 \begin{center} \label{Fig2.8.1}
-\includegraphics[width=0.3\textwidth]{2-8-1.png}
+\includegraphics[width=0.3\textwidth]{../fig/2-8-1.png}
 \end{center}
 
 As we did in the single-particle Green's function, $\nu$-numbers of interaction Hamiltonians can be divided into $n$-numbers of those interaction Hamiltonian which are connected to these external lines. And $(\nu-n)$-numbers of the interaction Hamiltonians which are disconnected from these external lines.
@@ -1175,7 +1175,7 @@ For the $n$-th order contribution to the two-particle Green's function $G_{\alph
 Now that we have four external variables associated with these four fermion field operators.
 
 \begin{center} \label{Fig2.8.2}
-\includegraphics[width=0.3\textwidth]{2-8-2.png}
+\includegraphics[width=0.3\textwidth]{../fig/2-8-2.png}
 \end{center}
 
 Two fermion lines which start from these two points should be terminated to either $\alpha$, $x_1$ or $\beta$, $x_2$.
@@ -1185,13 +1185,13 @@ We have two way of connecting these two creation fields with these two annihilat
 One is to connect $(\delta,x_1^{'})$ with $(\alpha,x_1)$ and $(\gamma,x_2^{'})$ with $(\beta,x_2)$.
 
 \begin{center} \label{Fig2.8.3}
-\includegraphics[width=0.3\textwidth]{2-8-3.png}
+\includegraphics[width=0.3\textwidth]{../fig/2-8-3.png}
 \end{center}
 
 The other is to connect $(\delta,x_1^{'})$ with $(\beta,x_2)$ and $(\gamma,x_2^{'})$ with $(\alpha,x_1)$
 
 \begin{center} \label{Fig2.8.4}
-\includegraphics[width=0.3\textwidth]{2-8-4.png}
+\includegraphics[width=0.3\textwidth]{../fig/2-8-4.png}
 \end{center}
 
 \item We affix a sign factor $(-1)^F$ to the former type of Feynman diagram where ``$F$" is the number of closed fermion loops in the diagram, while we affix a sign factor $(-1)^{F+1}$ to the ladder type of Feynman diagram.
@@ -1232,7 +1232,7 @@ Now both the two-particle Green's function here and the one-particle Green's fun
 Especially, two-particle Green's function contain those Feynman diagrams in which the external line from $x,\alpha$ to $x,\alpha$ and that from $x^{'},\beta$ to $x^{'},\beta$ are disconnected.
 
 \begin{center} \label{Fig2.8.5}
-\includegraphics[width=0.3\textwidth]{2-8-5.png}
+\includegraphics[width=0.3\textwidth]{../fig/2-8-5.png}
 \end{center}
 
 Connected Feynman diagrams to $G_{\alpha,\beta;\beta,\alpha}(x,x^{'};x,x^{'})$, in which an external line from $(\alpha,x)$ to $(\alpha,x)$ and that from $(\beta,x^{'})$ to $(\beta,x^{'})$ are disconnected.
@@ -1258,7 +1258,7 @@ where this superscript ``$(C)$" means that the fermion field at $(\alpha,x)$ and
 
 Examples of such Feynman diagrams include,
 \begin{center} \label{Fig2.8.6}
-\includegraphics[width=0.3\textwidth]{2-8-6.png}
+\includegraphics[width=0.3\textwidth]{../fig/2-8-6.png}
 \end{center}
 
 Here, I put together two fermion fields whose arguments are same.
@@ -1270,7 +1270,7 @@ When this $\lambda$ is taken to be zero, we don't have any interaction potential
 -i D^{\lambda=0}(x,x^{'})=& \sum_{\alpha,\beta} G^{\lambda=0}_{\alpha,\beta;\beta,\alpha}(x,x^{'};x,x^{'}) - \sum_{\alpha}G^{\lambda=0}_{\alpha,\alpha}(x,x)\cdot\sum_{\beta}G^{\lambda=0}_{\beta,\beta}(x^{'},x^{'})
 \end{split}\]
 
-One is {\label{Fig2.8.7} \includegraphics[width=0.05\textwidth]{2-8-7.png}} and the other is {\label{Fig2.8.8} \includegraphics[width=0.05\textwidth]{2-8-8.png}}.
+One is {\label{Fig2.8.7} \includegraphics[width=0.05\textwidth]{../fig/2-8-7.png}} and the other is {\label{Fig2.8.8} \includegraphics[width=0.05\textwidth]{../fig/2-8-8.png}}.
 
 The latter one is cancelled by the 2nd term($\sum_{\beta} G^{\lambda=0}_{\beta,\beta}(x^{'},x^{'})$), so that the density-density correlation function is given by the former one.
 
@@ -1302,12 +1302,12 @@ In the momentum representation, the bare polarization part is given as follows.
 
 and: the corresponding Feynman diagram can be described like this
 \begin{center} \label{Fig2.8.9}
-\includegraphics[width=0.3\textwidth]{2-8-9.png}
+\includegraphics[width=0.3\textwidth]{../fig/2-8-9.png}
 \end{center}
 
 Similarly, Feynman diagrams for the full polarization part can be schematically described as follows:
 \begin{center} \label{Fig2.8.10}
-\includegraphics[width=0.15\textwidth]{2-8-10.png}
+\includegraphics[width=0.15\textwidth]{../fig/2-8-10.png}
 \end{center}
 
 where $k$, $k^{'}$, $q$ here are all four-dimensional momentum vector.
@@ -1320,7 +1320,7 @@ The proper part is a polarization part that \textbf{cannot} be separated into tw
 
 For example, this is a proper polarization part, while this is improper, because we can cut this into two polarization part by removing this interaction line.
 \begin{center} \label{Fig2.8.11}
-\includegraphics[width=0.6\textwidth]{2-8-11.png}
+\includegraphics[width=0.6\textwidth]{../fig/2-8-11.png}
 \end{center}
 
 \begin{center}--------------------------\end{center}
@@ -1330,7 +1330,7 @@ Then, in the same way as we did for the Dyson equation for self-energy, we can a
 \begin{itemize}
 \item Firstly, the full polarization part consist of a sum of all possible repetitions of the proper polarization part.
 \begin{center} \label{Fig2.8.12}
-\includegraphics[width=0.8\textwidth]{2-8-12.png}
+\includegraphics[width=0.8\textwidth]{../fig/2-8-12.png}
 \end{center}
 
 where this part denotes the proper polarization part, while this wavy line is for interaction potential.
@@ -1339,7 +1339,7 @@ where this part denotes the proper polarization part, while this wavy line is fo
 
 \item As is clear from this repetitive structure, this can be rewritten into a self-consistent equation:
 \begin{center} \label{Fig2.8.13}
-\includegraphics[width=0.8\textwidth]{2-8-13.png}
+\includegraphics[width=0.8\textwidth]{../fig/2-8-13.png}
 \end{center}
 
 where this singly shaded one is a collection of all possible proper polarization part.
@@ -1398,7 +1398,7 @@ As I have already explained there, the uniform positive background precisely can
 
 To understand the structure of eq.(\ref{Eqs2.8.8}), let us expand $\left[ \ldots \right]$ in $\lambda$(or interaction potential):
 \footnote{\begin{center} \label{Fig2.8.14}
-\includegraphics[width=0.6\textwidth]{2-8-14.png}
+\includegraphics[width=0.6\textwidth]{../fig/2-8-14.png}
 \end{center}}
 
 \[[\ldots] = \frac{\lambda V(q)\Pi^{\bigstar,\lambda}(q)}{1-\lambda V(q)\Pi^{\bigstar,\lambda}(q)} - \lambda V(q)\Pi^0(q)\]
@@ -1410,9 +1410,9 @@ But, we can expand $\Pi^{\bigstar,\lambda}$ in the powers of $\lambda$:
 
 where
 \begin{itemize}
-\item \[\Pi_0^\bigstar(q)= \includegraphics[width=0.1\textwidth]{2-8-15.png}\quad(\equiv \Pi_0(q))\]
+\item \[\Pi_0^\bigstar(q)= \includegraphics[width=0.1\textwidth]{../fig/2-8-15.png}\quad(\equiv \Pi_0(q))\]
 
-\item \[\Pi_1^\bigstar(q) = \includegraphics[width=0.4\textwidth]{2-8-16.png} \]
+\item \[\Pi_1^\bigstar(q) = \includegraphics[width=0.4\textwidth]{../fig/2-8-16.png} \]
 
 The 1st term and last term vanish because $V(\mathbf{q}=0)=0$.
 
@@ -1444,7 +1444,7 @@ This divergence comes from the singular behaviour of the Coulomb potential $V(q)
 A similar divergence also occurs in all orders in $\lambda$, because these is always a single $m$-th order term with the integrand $\left[ V(q) \Pi^0(q) \right]^m$.
 
 \begin{center} \label{Fig2.8.17}
-\includegraphics[width=0.6\textwidth]{2-8-17.png}
+\includegraphics[width=0.6\textwidth]{../fig/2-8-17.png}
 \end{center}
 
 An idea of ``ring diagram approximation" is to sum up all these singular terms up to all order in the perturbation theory by introducting an effective interaction potential as
@@ -1468,12 +1468,12 @@ where $E_r$ is the collection of leading contributions, while $E_2^{b,c,d}$ are 
 
 $E_r$ can be schematically given by the following diagrams:
 \begin{center} \label{Fig2.8.18}
-\includegraphics[width=0.6\textwidth]{2-8-18.png}
+\includegraphics[width=0.6\textwidth]{../fig/2-8-18.png}
 \end{center}
 
 where the bold wavy line represents the effective interaction potential $U_r(q)$;
 \begin{center} \label{Fig2.8.19}
-\includegraphics[width=0.6\textwidth]{2-8-19.png}
+\includegraphics[width=0.6\textwidth]{../fig/2-8-19.png}
 \end{center}
 
 Taking into account only these singular diagrams is called a ``ring-diagram approximation".
@@ -1659,7 +1659,7 @@ substituting this expression into this, we have
 To evaluate this integral, let us introduce two unit spheres whose centers are seqarated by a vector $\mathbf{q}$.
 
 \begin{center} \label{Fig2.8.20}
-\includegraphics[width=0.6\textwidth]{2-8-20.png}
+\includegraphics[width=0.6\textwidth]{../fig/2-8-20.png}
 \end{center}
 \begin{itemize}
 \item We consider the vector $\mathbf{k}$ from the center of this unit sphere.
@@ -1672,14 +1672,14 @@ To evaluate this integral, let us introduce two unit spheres whose centers are s
 \end{itemize}
 
 \begin{center} \label{Fig2.8.21}
-\includegraphics[width=0.17\textwidth]{2-8-21.png}
+\includegraphics[width=0.17\textwidth]{../fig/2-8-21.png}
 \end{center}
 \begin{itemize}
 \item This situation holds true, whenever the amplitude of $\mathbf{q}$ is greater than 2.
 \end{itemize}
 
 \begin{center} \label{Fig2.8.22}
-\includegraphics[width=0.2\textwidth]{2-8-22.png}
+\includegraphics[width=0.2\textwidth]{../fig/2-8-22.png}
 \end{center}
 \begin{itemize}
 \item Otherwise, these two unit spheres have a finite overlap, where the integral region for $\mathbf{k}$ is restricted within this shadow region.
@@ -1697,7 +1697,7 @@ Otherwise, $Im\Pi^0(\mathbf{q},\nu)$ always reduces to zero.
 
 If this(underlined) is the case, the integrand remains finite only when $k$ is within the plane which satisfies $\frac{q^2}{2}+\mathbf{q}\cdot \mathbf{k} = \nu$,
 \begin{center} \label{Fig2.8.23}
-\includegraphics[width=0.35\textwidth]{2-8-23.png}
+\includegraphics[width=0.35\textwidth]{../fig/2-8-23.png}
 \end{center}
 
 where the distance between this plane and the center of this unit sphere is given by
@@ -1713,7 +1713,7 @@ Im\Pi^0(\mathbf{q},\nu) =& -\frac{m k_F}{4\pi^2 \hbar^2} 2\pi \int_{|\frac{\nu}{
 
 Let us next consider $q<2$ case.
 \begin{center}\label{Fig2.8.24}
-\includegraphics[width=0.17\textwidth]{2-8-24.png}
+\includegraphics[width=0.17\textwidth]{../fig/2-8-24.png}
 \end{center}
 
 In this case, the integration over $k$ is restricted within this shaded region.
@@ -1721,7 +1721,7 @@ In this case, the integration over $k$ is restricted within this shaded region.
 In such a case, this part($\frac{q^2}{2} + \mathbf{q} \cdot \mathbf{k}$) is bounded by this form
 \[ 0 \leq \frac{q^2}{2} + \mathbf{q} \cdot \mathbf{k} \leq \frac{q^2}{2} + q \]
 \begin{center}\label{Fig2.8.25}
-\includegraphics[width=0.6\textwidth]{2-8-25.png}
+\includegraphics[width=0.6\textwidth]{../fig/2-8-25.png}
 \end{center}
 
 Therefore, the integral remains finite only when $\nu$ is bounded by this region
@@ -1735,7 +1735,7 @@ To perform this integral explicitly, it is technically useful to divide this reg
 
 When $\mathbf{k}$ is along the plane which touches with this lower unit sphere, this term becomes equal to this quantity.
 \begin{center}\label{Fig2.8.26}
-\includegraphics[width=0.6\textwidth]{2-8-26.png}
+\includegraphics[width=0.6\textwidth]{../fig/2-8-26.png}
 \end{center}
 
 In the former case, the integral can be performed exactly in the same way as we did for $q>2$ case.
@@ -1749,7 +1749,7 @@ In the latter case, the integration becomes a little involved, bacause the plane
 \]
 
 \begin{center}\label{Fig2.8.27}
-\includegraphics[width=0.6\textwidth]{2-8-27.png}
+\includegraphics[width=0.6\textwidth]{../fig/2-8-27.png}
 \end{center}
 
 When $\mathbf{k}$ is within this shaded annulus, the integrand remains finite.
@@ -1762,7 +1762,7 @@ In terms of $k_{min}$ thus defined, the integral is given by
 By a simple geometry, $k_{min}$ is given by $\nu$ as follows:
 \[ k_{min} = (1-2\nu)^{\frac{1}{2}} \]
 \begin{center}\label{Fig2.8.28}
-\includegraphics[width=0.6\textwidth]{2-8-28.png}
+\includegraphics[width=0.6\textwidth]{../fig/2-8-28.png}
 \end{center}
 
 Thus
@@ -1792,11 +1792,11 @@ When viewed as a function of $\nu$, the Imaginary part can be drawn like this:
 \begin{itemize}
 \item For $(0 < ) q < 2$ case:
 \begin{center}\label{Fig2.8.29}
-\includegraphics[width=0.6\textwidth]{2-8-29.png}
+\includegraphics[width=0.6\textwidth]{../fig/2-8-29.png}
 \end{center}
 \item For $2 < q$ case:
 \begin{center}\label{Fig2.8.30}
-\includegraphics[width=0.6\textwidth]{2-8-30.png}
+\includegraphics[width=0.6\textwidth]{../fig/2-8-30.png}
 \end{center}
 \end{itemize}
 
@@ -1957,7 +1957,7 @@ E_2^r = \frac{1}{2}i V \hbar\int \frac{\mathrm{d}^4 q}{(2\pi)^4} \int_0^1 \mathr
 
 Equivalently
 \begin{center} \label{Fig2.8.31}
-\includegraphics[width=0.6\textwidth]{2-8-31.png}
+\includegraphics[width=0.6\textwidth]{../fig/2-8-31.png}
 \end{center}
 
 Let us begin with the 2nd-order term first:
@@ -2018,7 +2018,7 @@ When $q_c$ is chosen to be much smaller than $1$, we may approximately employ th
 
 From this final expression, we can see that this momentum integral exhibits logarithmic divergence in the infrared regime.
 
-Moreover, when it comes to the 3rd-order term\includegraphics[width=0.15\textwidth]{2-8-32.png}, the integrand contains $V_0^3(q) (\Pi^0(q))^3$, so that this momentum integral in the infrared regime will be replaced by the following form.
+Moreover, when it comes to the 3rd-order term\includegraphics[width=0.15\textwidth]{../fig/2-8-32.png}, the integrand contains $V_0^3(q) (\Pi^0(q))^3$, so that this momentum integral in the infrared regime will be replaced by the following form.
 \begin{equation*} \label{Eqs2.8.9.e} \tag{2.8.9.e}
 \int_0^{q_c}q^3 \cdot \frac{1}{q^6} \cdot \mathrm{d}q \int_0^1 \mathrm{d} x \left( a x f^2(x) + bx^3 \right)
 \end{equation*}
@@ -2027,7 +2027,7 @@ which exhibits more singular divergence at $q=0$.
 
 An idea of ``ring-diagram approximation" is to sum up all these singular terms up to all order in the perturbation theory:
 \begin{center} \label{Fig2.8.33}
-\includegraphics[width=0.6\textwidth]{2-8-33.png}
+\includegraphics[width=0.6\textwidth]{../fig/2-8-33.png}
 \end{center}
 \begin{equation*} \tag{2.8.9}
 E_r = \frac{1}{2}i V\hbar \int \frac{\mathrm{d}^4 q}{(2\pi)^4} \int_0^1 \mathrm{d} \lambda \cdot \lambda \frac{[ V_0(q) \Pi^0(q)]^2}{1-\lambda V_0(q) \Pi^0(q)}
@@ -2399,7 +2399,7 @@ which means that induced charge density screens the impurity with $+Z e$ charge 
 \item The second feature is that the induced charge density is finite everywhere and it has maximum at $\mathbf{x}=0$.
 
 \begin{center} \label{Fig3.1.1}
-\includegraphics[width=0.3\textwidth]{3-1-1.png}
+\includegraphics[width=0.3\textwidth]{../fig/3-1-1.png}
 \end{center}
 
 \begin{equation}\label{Eqs3.1.26}
@@ -2430,7 +2430,7 @@ $g(0)=1$, so that we can approximately evaluate this integral as
 \[\overset{r_S \rightarrow 0}{\approx} - \frac{Z e}{4\pi^2 x} \int_{-\infty}^{+\infty}\mathrm{d}q \cdot q\left( \frac{\mathrm{e}^{i qx}-\mathrm{e}^{-i qx}}{2i} \right)\frac{q_{TF}^2}{q^2+q_{TF}^2}\]
 
 \begin{center} \label{Fig3.1.2}
-\includegraphics[width=0.22\textwidth]{3-1-2.png}
+\includegraphics[width=0.22\textwidth]{../fig/3-1-2.png}
 \end{center}
 
 \[\begin{split}
@@ -2478,7 +2478,7 @@ log \left[ \frac{(q-2 k_F)^2 + \eta^2}{(q + 2 k_F)^2 + \eta^2}\right]_{q=2 k_F +
 As such, we introduce four branch cuts in the complex-$q$ plane.
 
 \begin{center} \label{Fig3.1.3}
-\includegraphics[width=0.6\textwidth]{3-1-3.png}
+\includegraphics[width=0.6\textwidth]{../fig/3-1-3.png}
 \end{center}
 
 Correspondingly, we will deform the integral path along the real axis into this way. We choose the upper half plane, because of this $\mathrm{e}^{i q x}$ where $x$ is positive definite.
@@ -2490,7 +2490,7 @@ When the contour takes to be infinitely far from the origin, we have
 \end{split}\end{equation}
 
 \begin{center} \label{Fig3.1.4}
-\includegraphics[width=0.4\textwidth]{3-1-4.png}
+\includegraphics[width=0.4\textwidth]{../fig/3-1-4.png}
 \end{center}
 
 Where this corresponds to the Thomas-Fermi pole contribution while these two contour-integrals are taken along these two branch cuts.
@@ -2501,7 +2501,7 @@ On the one hand, these two contour integrals give rise to ``algebraic decay for 
 
 To see this algebraic decay, let us first calculate this integral.
 \begin{center} \label{Fig3.1.5}
-\includegraphics[width=0.22\textwidth]{3-1-5.png}
+\includegraphics[width=0.22\textwidth]{../fig/3-1-5.png}
 \end{center}
 
 According to this branch cut, the imaginary part of this logarithmic function takes $-i \pi$ on the left side of $C_1$, while takes $+i \pi$ on the right side of $C_1$.
@@ -2567,7 +2567,7 @@ Then, substituting these two into eq.(\ref{Eqs3.1.32}), we finally obtain the le
 
 where $\xi \equiv \frac{q_{TF}^2}{2 k_F^2}$.
 \begin{center} \label{Fig3.1.6}
-\includegraphics[width=0.3\textwidth]{3-1-6.png}
+\includegraphics[width=0.3\textwidth]{../fig/3-1-6.png}
 \end{center}
 
 This result was first obtained by Langer \& Vosko.
@@ -2739,7 +2739,7 @@ Using this, the dispersion relation is obtained in the following way.
 where the second term is determined by this next leading order term of $\text{Re} \Pi^0$.
 
 \begin{center} \label{Fig3.1.7}
-\includegraphics[width=0.2\textwidth]{3-1-7.png}
+\includegraphics[width=0.2\textwidth]{../fig/3-1-7.png}
 \end{center}
 
 Since $\text{Im} \Pi^{0,R}(\mathbf{q},\Omega_{\mathbf{q}})$ vanishes in the dynamic limit, these gapped collecive mode has an infinitely long life time, within the ring-diagram approximation.
@@ -2764,5 +2764,5 @@ where $c_0 \approx \sqrt{\frac{k_F^3V(0)}{3\pi^2 m}}$(``strong coupling" express
 This gapless collective mode in imperfect Fermi gas is called zero sound mode.
 
 \begin{center} \label{Fig3.1.8}
-\includegraphics[width=0.6\textwidth]{3-1-8.png}
+\includegraphics[width=0.6\textwidth]{../fig/3-1-8.png}
 \end{center}
